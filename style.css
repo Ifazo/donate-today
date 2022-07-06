@@ -1,28 +1,120 @@
-body{
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-button{
-    font-size: 20px;
-    width: 160px;
-    height: 56px;
-    border-radius: 5px;
-    border-style: none;
-    color: #fff;
-    background-color: #ff5959;
+h1 {
+  font-size: 50px;
 }
-.cover{
-    background-image: url(/images/donation0.jpg);
-    background-repeat: no-repeat;
-    background-size: 1200px 800px;
-    color: white;
+button {
+  font-size: 20px;
+  width: 160px;
+  height: 56px;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  background-color: #ff5959;
 }
-#one{
-    text-align: center;
-    padding: 100px 50px;
-    margin: 0px;
+.cover {
+  height: 500px;
+  background-image: url(/images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 200px;
+  margin: auto;
+  text-align: center;
 }
-.taka{
-    background: #fafafa;
-    display: flex;
-    justify-content: space-evenly;
+.zero {
+  text-align: center;
+}
+.one {
+  display: flex;
+  justify-content: center;
+}
+.taka {
+  border: 2px solid #fff;
+  background: #fafafa;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.taka-orange {
+  color: #ff5959;
+  background-color: #ffeeee;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+.gray {
+  color: #b3b3b3;
+}
+hr {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.plan {
+  text-align: center;
+  margin: 100px;
+}
+#food {
+    width: 400px;
+  text-align: left;
+  background-color: #cce0f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+#shelter {
+    width: 400px;
+  text-align: left;
+  background-color: #ffcccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+#education {
+    width: 400px;
+  text-align: left;
+  background-color: #fff4d6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.fse {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.extra {
+  display: flex;
+  margin: 100px;
+}
+.half-width {
+  width: 50%;
+  align-items: center;
+}
+.half-width img {
+  width: 100%;
+  border-radius: 10px;
+}
+.updates {
+  text-align: center;
+  margin: 100px;
+}
+.email {
+  margin: auto;
+  width: 50%;
+  height: 10px;
+  background-color: #fff4d6;
+  text-align: center;
+  padding: 50px;
+}
+footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px;
 }
