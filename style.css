@@ -91,10 +91,10 @@ hr {
 .extra {
   display: flex;
   margin: 100px;
+  align-items: center;
 }
 .half-width {
   width: 50%;
-  align-items: center;
 }
 .half-width img {
   width: 100%;
