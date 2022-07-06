@@ -1,9 +1,28 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+button{
+    font-size: 20px;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color: #ff5959;
+}
 .cover{
     background-image: url(/images/donation0.jpg);
     background-repeat: no-repeat;
+    background-size: 1200px 800px;
     color: white;
+}
+#one{
     text-align: center;
+    padding: 100px 50px;
+    margin: 0px;
+}
+.taka{
+    background: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
 }
